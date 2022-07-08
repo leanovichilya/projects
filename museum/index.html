@@ -8,8 +8,48 @@
     <title>Museum</title>
   </head>
   <body>
-    <header class="header"></header>
-    <main></main>
+    <header class="header">
+      <div class="container header__container"><a class="header__logo">
+          <h1 class="header__title">Louvre</h1></a>
+        <nav class="header__navigation main-navigation">
+          <ul class="main-navigation__list">
+            <li class="main-navigation__item"><a class="main-navigation__link">Visiting</a></li>
+            <li class="main-navigation__item"><a class="main-navigation__link">Explore</a></li>
+            <li class="main-navigation__item"><a class="main-navigation__link">Video</a></li>
+            <li class="main-navigation__item"><a class="main-navigation__link">Gallery</a></li>
+            <li class="main-navigation__item"><a class="main-navigation__link">Tickets</a></li>
+            <li class="main-navigation__item"><a class="main-navigation__link">Contacts</a></li>
+          </ul>
+        </nav>
+        <div class="header__menu-btn"></div>
+      </div>
+    </header>
+    <main>
+      <section class="welcome">
+        <div class="container welcome__container">
+          <div class="welcome__slider">
+            <div class="welcome__content">
+              <h2 class="welcome__title">Welcome to the Louvre</h2>
+              <p class="welcome__text">From the castle to the museum</p><a class="welcome__link">Discover the Louvre</a>
+            </div>
+            <div class="welcome__controls">
+              <div class="welcome__slides">01 | 05</div>
+              <div class="welcome__swithes">0</div>
+              <div class="welcome__buttons">
+                <div class="welcome__button welcome__button-left">-</div>
+                <div class="welcome__button welcome__button-right">-</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="visiting"></section>
+      <section class="explore"></section>
+      <section class="video"></section>
+      <section class="gallery"></section>
+      <section class="tickets"></section>
+      <section class="contacts"></section>
+    </main>
     <footer class="footer"></footer>
     <script src="js/app.js"></script>
   </body>
