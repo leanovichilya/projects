@@ -30,7 +30,7 @@
           <div class="welcome__slider">
             <div class="welcome__content">
               <h2 class="welcome__title">Welcome to the Louvre</h2>
-              <p class="welcome__text">From the castle to the museum</p><a class="welcome__link">Discover the Louvre</a>
+              <p class="welcome__text">From the castle to the museum</p><a class="welcome__link" href="https://www.google.com/maps/@48.8618159,2.3366818,3a,75y,81.55h,73.4t/data=!3m7!1e1!3m5!1sAF1QipOVxZQuSy3Bx9T_HpH_7FtBHDTXvI6SF-A10ocT!2e10!3e12!7i5472!8i2736">Discover the Louvre</a>
             </div>
             <div class="welcome__controls">
               <div class="welcome__slides">01 | 05</div>
@@ -91,7 +91,52 @@
           <div class="explore__picture"><img class="explore__img" src="assets/img/explore/las_meninas_yellow.jpg" alt="Las Meninas"/></div>
         </div>
       </section>
-      <section class="video"></section>
+      <section class="video">
+        <div class="container video__container">
+          <div class="video__content">
+            <h2 class="video__title">Video Journey</h2>
+            <p class="video__text">Enter and visit one of the most famous museums in the world and enjoy masterpieces such as Mona Lisa or Hammurabi's Code</p>
+          </div>
+          <div class="video__player">
+            <div class="video__view">
+              <video src="https://www.youtube.com/embed/zp1BXPX8jcU" poster="assets/img/posters/main_poster.jpg"></video><img src="assets/img/icons/icons.svg#main_play" alt="Play video" width="220" height="220"/>
+            </div>
+            <div class="video__control-panel control-panel">
+              <div class="control-panel__play"><img src="assets/img/icons/icons.svg#play" alt="Play video" width="23" height="31"/></div>
+              <div class="control-panel__pause visually-hidden"><img src="assets/img/icons/icons.svg#play" alt="Pause video" width="" height=""/></div>
+              <label for="progress">
+                <input class="control-panel__progress" type="range" id="progress"/>
+              </label>
+              <div class="control-panel__sound"><img src="assets/img/icons/icons.svg#sound" alt="Sound video" width="38" height="31"/></div>
+              <div class="control-panel__mute visually-hidden"><img src="assets/img/icons/icons.svg#mute" alt="Mute video"/></div>
+              <label for="volume">
+                <input class="control-panel__volume" type="range" id="volume"/>
+              </label>
+              <div class="control-panel__screen-size"><img src="assets/img/icons/icons.svg#screen_size" alt="Change screen size video" width="35" height="35"/></div>
+            </div>
+          </div>
+          <div class="video__slider slider-video">
+            <div class="slider-video__miniatures">
+              <!--<iframe width="452" height="254"                    src="https://www.youtube.com/embed/zp1BXPX8jcU?controls=0" loading="lazy" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>-->
+              <!--</iframe>--><iframe width="452" height="254" src="https://www.youtube.com/embed/Vi5D6FKhRmo?controls=0" loading="lazy" title="YouTube video player" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="452" height="254" src="https://www.youtube.com/embed/NOhDysLnTvY?controls=0" loading="lazy" title="YouTube video player" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="452" height="254" src="https://www.youtube.com/embed/aWmJ5DgyWPI?controls=0" loading="lazy" title="YouTube video player" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="452" height="254" src="https://www.youtube.com/embed/2OR0OCr6uRE?controls=0" loading="lazy" title="YouTube video player" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <div class="slider-video__controls">
+              <div class="slider-video__pagination">
+                <div class="slider-video__pagination-dot"></div>
+                <div class="slider-video__pagination-dot"></div>
+                <div class="slider-video__pagination-dot"></div>
+                <div class="slider-video__pagination-dot"></div>
+                <div class="slider-video__pagination-dot"></div>
+              </div>
+              <div class="slider-video__arrow slider-video__arrow-left"><img src="assets/img/icons/icons.svg#double_arrow" alt="Arrow left" width="10" height="12"/></div>
+              <div class="slider-video__arrow slider-video__arrow-right"><img src="assets/img/icons/icons.svg#double_arrow" alt="Arrow right" width="10" height="12"/></div>
+            </div>
+          </div>
+        </div>
+      </section>
       <section class="gallery"></section>
       <section class="tickets"></section>
       <section class="contacts"></section>
