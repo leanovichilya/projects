@@ -146,7 +146,42 @@
           </div>
         </div>
       </section>
-      <section class="tickets"></section>
+      <section class="tickets">
+        <div class="container tickets__container">
+          <h2 class="tickets__title">Buy tickets</h2>
+          <div class="tickets__content"><img src="assets/img/tickets.jpg" alt="Ticket picture"/></div>
+          <form class="tickets__form form-tickets">
+            <fieldset class="form-tickets__type type-tickets">
+              <legend class="form-tickets__title type-tickets__title">Ticket type</legend>
+              <div class="form-tickets__input">
+                <label for="permanent">Permanent exhibition</label>
+                <input id="permanent" type="radio" name="type" checked="checked"/>
+              </div>
+              <div class="form-tickets__input">
+                <label for="temporary">Temporary exhibition</label>
+                <input id="temporary" type="radio" name="type"/>
+              </div>
+              <div class="form-tickets__input">
+                <label for="combined">Combined Admission</label>
+                <input id="combined" type="radio" name="type"/>
+              </div>
+            </fieldset>
+            <fieldset class="form-tickets__amount amount-tickets">
+              <legend class="form-tickets__title amount-tickets__title">Amount</legend>
+              <div class="amount-tickets__input">
+                <label for="basic">Basic 18+</label>
+                <div class="amount-tickets__count">
+                  <button class="amount-tickets__button" type="button" onclick="this.nextElementSibling.stepDown()">-</button>
+                  <input class="amount-tickets__count" id="basic" type="number" name="basic" min="0" max="99" value="1"/>
+                  <button class="amount-tickets__button" type="button" onclick="this.previousElementSibling.stepUp()">+</button>
+                </div>
+              </div>
+            </fieldset>
+            <p class="form-tickets__total">Total E220</p>
+            <button class="form-tickets__button" type="button">Buy now</button>
+          </form>
+        </div>
+      </section>
       <section class="contacts"></section>
     </main>
     <footer class="footer"></footer>
