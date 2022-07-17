@@ -9,16 +9,16 @@
   </head>
   <body>
     <header class="header">
-      <div class="container header__container"><a class="header__logo">
-          <h1 class="header__title">Louvre</h1></a>
-        <nav class="header__navigation main-navigation">
-          <ul class="main-navigation__list">
-            <li class="main-navigation__item"><a class="main-navigation__link">Visiting</a></li>
-            <li class="main-navigation__item"><a class="main-navigation__link">Explore</a></li>
-            <li class="main-navigation__item"><a class="main-navigation__link">Video</a></li>
-            <li class="main-navigation__item"><a class="main-navigation__link">Gallery</a></li>
-            <li class="main-navigation__item"><a class="main-navigation__link">Tickets</a></li>
-            <li class="main-navigation__item"><a class="main-navigation__link">Contacts</a></li>
+      <div class="container header__container"><a class="logo header__logo">
+          <h1 class="logo__title header__title">Louvre</h1></a>
+        <nav class="navigation header__navigation">
+          <ul class="navigation__list header-navigation__list">
+            <li class="navigation__item header-navigation__item"><a class="navigation__link header-navigation__link">Visiting</a></li>
+            <li class="navigation__item header-navigation__item"><a class="navigation__link header-navigation__link">Explore</a></li>
+            <li class="navigation__item header-navigation__item"><a class="navigation__link header-navigation__link">Video</a></li>
+            <li class="navigation__item header-navigation__item"><a class="navigation__link header-navigation__link">Gallery</a></li>
+            <li class="navigation__item header-navigation__item"><a class="navigation__link header-navigation__link">Tickets</a></li>
+            <li class="navigation__item header-navigation__item"><a class="navigation__link header-navigation__link">Contacts</a></li>
           </ul>
         </nav>
         <div class="header__menu-btn"></div>
@@ -209,7 +209,34 @@
         </div>
       </section>
     </main>
-    <footer class="footer"></footer>
+    <footer class="footer">
+      <div class="container footer__container">
+        <div class="footer__navigation footer-navigation"><a class="logo footer__logo" href="#">
+            <h1 class="logo__title footer__title">Louvre</h1></a>
+          <nav class="navigation footer__navigation">
+            <ul class="navigation__list footer-navigation__list">
+              <li class="navigation__item footer-navigation__item"><a class="navigation__link footer-navigation__link">Visiting</a></li>
+              <li class="navigation__item footer-navigation__item"><a class="navigation__link footer-navigation__link">Explore</a></li>
+              <li class="navigation__item footer-navigation__item"><a class="navigation__link footer-navigation__link">Video</a></li>
+              <li class="navigation__item footer-navigation__item"><a class="navigation__link footer-navigation__link">Gallery</a></li>
+              <li class="navigation__item footer-navigation__item"><a class="navigation__link footer-navigation__link">Tickets</a></li>
+              <li class="navigation__item footer-navigation__item"><a class="navigation__link footer-navigation__link">Contacts</a></li>
+            </ul>
+          </nav>
+          <ul class="footer-navigation__social social__list">
+            <li class="social__item"><a class="social__link" href="#"><span class="visually-hidden">Youtube</span></a></li>
+            <li class="social__item"><a class="social__link" href="#"><span class="visually-hidden">Instagram</span></a></li>
+            <li class="social__item"><a class="social__link" href="#"><span class="visually-hidden">Facebook</span></a></li>
+            <li class="social__item"><a class="social__link" href="#"><span class="visually-hidden">Twittrer</span></a></li>
+            <li class="social__item"><a class="social__link" href="#"><span class="visually-hidden">Pinerest</span></a></li>
+          </ul>
+        </div>
+        <div class="footer__copyright copyright">
+          <time class="copyright__date">&#169; 2021</time><small class="copyright__rights"><a class="copyright__link" href="#">The Rolling Scopes School</a></small>
+          <cite class="copyright__author author"><a class="author__link" href="#">Ilya</a></cite>
+        </div>
+      </div>
+    </footer>
     <script src="js/app.js"></script>
   </body>
 </html>
